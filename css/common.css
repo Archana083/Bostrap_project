@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #712cf9;
+    --primary-color-light: #7d50d5;
+    --primary-color-light-pro: #9a6df5;
+    --secondary-color: rgba(0, 0, 0, 0.849);
+    --secondary-color-light: rgba(24, 24, 24, 0.477);
+    --tertiary-color:#fff;
+    }
+  * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+
+.sub-title{
+    color: var(--primary-color-light);
+}
+
+.title{
+    color: var(--primary-color);
+    }
+    .border-none{
+      border: none !important;
+    }
+
+.h-anchor a{
+  background: rgba(128, 128, 128, 0.138);
+  padding: 6px 9px;
+  margin: 5px;
+}
+.h-anchor a:hover{
+  background:var(--primary-color-light-pro) ;
+}
+.h-anchor a i{
+  color: var(--primary-color-light-pro);
+}
+
+.h-anchor a:hover i{
+  color: var(--tertiary-color);
+}
